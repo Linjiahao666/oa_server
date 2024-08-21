@@ -2,7 +2,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken");
 const cookieParser = require("cookie-parser");
-const { path } = require("@npmcli/config/lib/type-defs");
 
 const app = express();
 const port = 3000;
